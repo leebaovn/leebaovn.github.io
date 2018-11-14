@@ -1,6 +1,8 @@
 body{
 	background-color:lightblue;
 	font-family::"segoe ui";
+	width:50%;
+	height:50%;	
 }
 h1{
 text-align:center;
@@ -12,4 +14,27 @@ color:red;
 	height:150px;
 	border-radius:50%;
 	margin:auto;
+}
+
+.a{
+	position:relative;
+	text-align:center;
+}
+.info{
+	text-align:center;
+}
+.bang{
+	position:relative;
+	left:100px;
+}
+.f{
+	position:relative;
+	text-align:left;
+	left:200px;
+}
+h2{
+	position:fixed;
+	color:gray;
+	top:0px;
+	left:0px;
 }
