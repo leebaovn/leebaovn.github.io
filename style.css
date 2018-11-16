@@ -1,36 +1,129 @@
+*{
+	margin:0;
+	padding:0;
+}
 body{
-	background-color:lightblue;
+	background-color:rgba(132,216,112,0.4);
 	font-family::"segoe ui";
-	width:50%;
-	height:50%;	
-}
-h1{
-text-align:center;
-color:red;
-}
-.avatar{
-	position:block;
-	width:150px;
-	height:150px;
-	border-radius:50%;
-	margin:auto;
+	margin:0;
+	padding:0;
+	width:1100px;
 }
 
-.a{
-	position:relative;
-	text-align:center;
+.avatar{
+	position:block;
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	padding:40px 20px;
 }
+
+
 .info{
-	text-align:center;
+	
+	text-transform:Capitalize;
+	font-family:'georgia',serif;
+	font-size:20px;
+	padding-bottom:10px;
+}
+#ava {	
+	left:0;
+	color:red;
+	padding-bottom:20px;	
+	text-decoration:none;
 }
 .bang{
 	position:relative;
 	left:100px;
+	float:right;
 }
 .f{
 	position:relative;
 	text-align:left;
 	left:200px;
+}
+#box{
+	width:350px;
+	height:200px;
+	background-color:rgba(252,122,12,0.4);
+	margin:0 auto;
+	border:5px solid #F00;
+}
+#box div{
+	color:blue;
+	display:inline-block;
+	width:49%;
+
+}
+
+#navbar{
+	background: #3366cc;
+	
+	font-size:20px;
+	font-family:'tahoma',serif;
+	padding-left:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	position:fixed;
+	width:100%;
+	height:40px;
+	line-height:40px;
+}
+
+#navbar ul{
+	list-style-type:none;
+}
+#navbar ul li{
+	display:inline-table;
+	text-decoration:none;
+	margin-right:20px;
+	position:relative;
+}
+#navbar ul li a{
+	display:block;
+	text-decoration:none;
+	color:white;
+}
+#navbar ul li a:hover{
+	color:#FFF;
+	
+	background-color:#00FFFF;
+	padding:2px 5px;
+	border-radius:5px;
+	transition: color 0.3s,background 0.3s;
+}
+#navbar ul li > .sub {
+	display:none;
+	position:absolute;
+}
+#navbar ul li:hover .sub {
+	display:block;
+	position:absolute;
+	background:#3366FF;
+}
+
+.but{
+	background-color:red;
+	padding:5px 10px;
+	border-radius:20px;
+}
+
+.but:hover{
+	background-color:white;
+	color:#555;
+	transition: color 0.3s,background 0.3s;
+	
+}
+
+#box a{
+	margin-right:35px;
+	margin-left:35px;
+	border: 2px dashed #000;
+	padding:7px 15px 7px 15px;
+}
+#box p{
+	border:2px solid #000;
+	padding: 10px 10px;
 }
 h2{
 	position:fixed;
